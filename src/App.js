@@ -42,7 +42,7 @@ function App() {
        image: "https://images.template.net/108351/food-fest-background-3vff1.png" },
        {
         id: 6,
-        name: "Outdoor Yoga Retreat",
+        name: "Yoga Retreat",
         date: "2024-12-30",
         location: "Royal Park",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPUKWhQJbhQ26B-Eq0bvd2EYv4L_zt5NpBA&s"
