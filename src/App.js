@@ -33,7 +33,7 @@ function App() {
       id: 3, 
       name: "Tech Conference", 
       date: "2024-12-15", 
-      location: "Convention Center", 
+      location: "Tech Center", 
       image: "https://png.pngtree.com/thumb_back/fh260/background/20210127/pngtree-blue-gradient-technology-circuit-abstract-background-image_541439.jpg" 
     },
     { id: 4, name: "Comedy Show", date: "2024-12-20", location: "Comedy Club",
@@ -44,7 +44,7 @@ function App() {
         id: 6,
         name: "Outdoor Yoga Retreat",
         date: "2024-12-30",
-        location: "Riverside Park",
+        location: "Royal Park",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPUKWhQJbhQ26B-Eq0bvd2EYv4L_zt5NpBA&s"
       }
   ];
