@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 import Modal from "./Modal.js";
-import logo from './assets/image2.png';
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -242,9 +241,6 @@ function App() {
     <div>
       {/* Navbar */}
       <header>
-      <div className="logo-container">
-          <img src={logo} alt="Logo" className="logo" />
-        </div>
         <h1>Book My Spot 🗓️</h1>
         <nav>
           <ul>
