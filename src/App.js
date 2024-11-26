@@ -241,7 +241,7 @@ function App() {
     <div>
       {/* Navbar */}
       <header>
-        <h1>Book My Spot 🗓️</h1>
+        <h1>𝓑𝓞𝓞𝓚 𝓜𝓨 𝓢𝓟𝓞𝓣 🗓️</h1>
         <nav>
           <ul>
             <li>
