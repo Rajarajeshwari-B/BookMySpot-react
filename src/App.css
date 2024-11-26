@@ -30,7 +30,13 @@ body {
   height: 150px; /* Adjust the logo size */
   width: 150px;
 }
-
+@media (max-width: 768px) { /* Adjust for mobile viewports */
+  .logo {
+    top: 5px; /* Adjust spacing */
+    right: 10px;
+    height: 30px; /* Smaller logo size */
+  }
+}
 header {
   background: linear-gradient(90deg, #0066cc, #0099ff);
   color: white;
