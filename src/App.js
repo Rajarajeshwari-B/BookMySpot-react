@@ -19,32 +19,32 @@ function App() {
       id: 1, 
       name: "Concert", 
       date: "2024-12-01", 
-      location: "City Hall", 
+      location:"City Hall", 
       image: "https://t3.ftcdn.net/jpg/05/03/58/28/240_F_503582859_7SJMOrd2Xf5ujdBjrBCam7ngr9wc84vH.jpg" 
     },
     { 
       id: 2, 
       name: "Art Exhibition", 
       date: "2024-12-10", 
-      location: "Museum", 
+      location:"Museum", 
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvWxn_SL1fanqzphMl5u8httY0VMRAuVNdg&s" 
     },
     { 
       id: 3, 
       name: "Tech Conference", 
       date: "2024-12-15", 
-      location: "Tech Center", 
+      location:"Tech Center", 
       image: "https://png.pngtree.com/thumb_back/fh260/background/20210127/pngtree-blue-gradient-technology-circuit-abstract-background-image_541439.jpg" 
     },
-    { id: 4, name: "Comedy Show", date: "2024-12-20", location: "Comedy Club",
+    { id: 4, name: "Comedy Show", date: "2024-12-20", location:"Comedy Club",
        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzhgl5H_PJ6o86geqW92Y5xONGU-5kEWcTMQ&s" },
-    { id: 5, name: "Food Festival", date: "2024-12-25", location: "City Park",
+    { id: 5, name: "Food Festival", date: "2024-12-25", location:"City Park",
        image: "https://images.template.net/108351/food-fest-background-3vff1.png" },
        {
         id: 6,
-        name: "Yoga Retreat",
+        name:"Yoga Retreat",
         date: "2024-12-30",
-        location: "Royal Park",
+        location:"Royal Park",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlPUKWhQJbhQ26B-Eq0bvd2EYv4L_zt5NpBA&s"
       }
   ];
