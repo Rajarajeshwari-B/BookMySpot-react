@@ -15,7 +15,21 @@ body {
   color: #333; /* Ensures text is readable on a dark or busy background */
 }
 
+/* Logo Styling */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Centers the logo horizontally */
+  align-items: center;
+  margin-bottom: 10px;
+}
 
+.logo {
+  position: absolute;
+  top: 0px; /* Adjust the vertical position */
+  left: 10px; /* Adjust the horizontal position */
+  height: 150px; /* Adjust the logo size */
+  width: 150px;
+}
 
 header {
   background: linear-gradient(90deg, #0066cc, #0099ff);
@@ -30,15 +44,9 @@ header h1 {
   margin-bottom: 10px;
 }
 
-header p {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-}
-
 header nav {
   background-color: #004d99;
   padding: 10px 0;
-  align-items: center;
 }
 
 header nav ul {
@@ -50,7 +58,6 @@ header nav ul {
 
 header nav ul li {
   display: inline;
-  align-items: center;
 }
 
 header nav ul li button {
@@ -69,6 +76,15 @@ header nav ul li button:hover {
   color: white;
   transform: translateY(-2px);
 }
+
+
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+
 
 
 
@@ -358,5 +374,6 @@ form button:hover {
   background-color: #004d99;
   transform: translateY(-2px);
 }
+
 
 
