@@ -15,38 +15,7 @@ body {
   color: #333; /* Ensures text is readable on a dark or busy background */
 }
 
-/* Logo Styling */
-.logo-container {
-  display: flex;
-  justify-content: center; /* Centers the logo horizontally */
-  align-items: center;
-  margin-bottom: 10px;
-}
 
-.logo {
-  position: absolute;
-  top: 0px; /* Adjust the vertical position */
-  left: 10px; /* Adjust the horizontal position */
-  height: 150px; /* Adjust the logo size */
-  width: 150px;
-}
-@media (max-width: 768px) { /* Adjust for mobile viewports */
-  .logo {
-    top: 5px; /* Adjust spacing */
-    right: 10px;
-    height: 30px; /* Smaller logo size */
-  }
-}
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center them horizontally */
-  }
-
-  .logo {
-    margin-bottom: 10px; /* Add space between logo and heading */
-  }
-}
 header {
   background: linear-gradient(90deg, #0066cc, #0099ff);
   color: white;
