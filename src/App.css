@@ -37,6 +37,16 @@ body {
     height: 30px; /* Smaller logo size */
   }
 }
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center them horizontally */
+  }
+
+  .logo {
+    margin-bottom: 10px; /* Add space between logo and heading */
+  }
+}
 header {
   background: linear-gradient(90deg, #0066cc, #0099ff);
   color: white;
